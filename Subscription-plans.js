@@ -35,3 +35,10 @@ document.addEventListener("DOMContentLoaded", () => {
             console.error("Error fetching data:", error);
         });
 });
+
+  // Function to copy the referral link to the clipboard
+  function copyReferralLink() {
+    var referralLink = document.getElementById("referral-link");
+    referralLink.select();
+    document.execCommand("copy");
+  }
