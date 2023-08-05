@@ -121,10 +121,11 @@ ul {
 }
     /* Style for the "Copy Link" button */
     .copy-button {
-        background-color: orangered;
+        background-color: blue;
         color: white;
         border: none;
-        padding: 10px 20px;
+        border-radius: 5px;
+        padding: 5px 10px;
         cursor: pointer;
-        font-size: 16px;
+        font-size: 12px;
       }
